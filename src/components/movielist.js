@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { fetchMovies } from '../actions/movieActions';
+//import { fetchMovie } from '../actions/movieActions';
 import { setMovie } from '../actions/movieActions';
 import {connect} from "react-redux";
 import { Image } from 'react-bootstrap'
@@ -47,7 +48,7 @@ class MovieList extends Component {
                             </LinkContainer>
                         </div>
                         <Carousel.Caption>
-                            <h3>{movie.title}</h3>
+                            <h3>{movie.Title}</h3>
                             <Glyphicon glyph={'star'} /> {movie.avgRating} &nbsp;&nbsp; {movie.releaseDate}
                         </Carousel.Caption>
                     </Carousel.Item>)}

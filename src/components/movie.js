@@ -19,7 +19,7 @@ class Movie extends Component {
         const ActorInfo = ({actors}) => {
             return actors.map((actor, i) =>
                 <p key={i}>
-                    <b>{actor.actorName}</b> {actor.characterName}
+                    <b>{actor.ActorName}</b> {actor.CharacterName}
                 </p>
             );
         };
@@ -27,8 +27,8 @@ class Movie extends Component {
         const ReviewInfo = ({reviews}) => {
             return reviews.map((review, i) =>
                 <p key={i}>
-                <b>{review.username}</b> {review.review}
-                    <Glyphicon glyph={'star'} /> {review.rating}
+                    <b>{review.name}</b> {review.quote} <b/>
+                <Glyphicon glyph={'star'} /> {review.rating}
                 </p>
             );
         }
@@ -42,11 +42,12 @@ class Movie extends Component {
                     <Panel.Heading>Movie Detail</Panel.Heading>
                     <Panel.Body><Image className="image" src={currentMovie.imageUrl} thumbnail /></Panel.Body>
                     <ListGroup>
-                        <ListGroupItem>{currentMovie.title}</ListGroupItem>
-                        <ListGroupItem><ActorInfo actors={currentMovie.actors} /></ListGroupItem>
+                        <ListGroupItem>{currentMovie.Title}</ListGroupItem>
+                        <ListGroupItem><ActorInfo actors={currentMovie.Actors} /></ListGroupItem>
                         <ListGroupItem><h4><Glyphicon glyph={'star'} /> {currentMovie.avgRating} </h4></ListGroupItem>
                     </ListGroup>
-                    <Panel.Body><ReviewInfo reviews={currentMovie.reviews} /></Panel.Body>
+                    <Panel.Body><ReviewInfo reviews={currentMovie.review} /></Panel.Body>
+
                 </Panel>
             );
         };
