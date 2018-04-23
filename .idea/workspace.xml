@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35cd662-f52b-4583-bd99-7e510a0cf6d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.development" afterPath="$PROJECT_DIR$/.env.development" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/actions/movieActions.js" afterPath="$PROJECT_DIR$/src/actions/movieActions.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/movie.js" afterPath="$PROJECT_DIR$/src/components/movie.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/movielist.js" afterPath="$PROJECT_DIR$/src/components/movielist.js" />
-    </list>
+    <list default="true" id="f35cd662-f52b-4583-bd99-7e510a0cf6d8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -318,7 +310,7 @@
       <workItem from="1522883086467" duration="24222000" />
       <workItem from="1523168017312" duration="59000" />
       <workItem from="1523197877882" duration="34468000" />
-      <workItem from="1524508135041" duration="6648000" />
+      <workItem from="1524508135041" duration="6824000" />
     </task>
     <task id="LOCAL-00001" summary="lab1">
       <created>1522979821528</created>
@@ -331,7 +323,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66325000" />
+    <option name="totallyTimeSpent" value="66501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
